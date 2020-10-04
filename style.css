@@ -8,13 +8,19 @@
 .about-me h1 {
     display: inline;
     font-size: 24px;
-    font: outline;
 }
 
 .about-me div {
-    padding: 15px;
     margin-right: 20px;
     float: right;
     font-size: 15px;
+}
+.about-me div ul {
+    list-style-type: none;
+}
+
+.about-me div ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
