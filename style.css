@@ -4,3 +4,17 @@
     background-color: beige;
     padding: 20px;
 } 
+
+.about-me h1 {
+    display: inline;
+    font-size: 24px;
+    font: outline;
+}
+
+.about-me div {
+    padding: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 15px;
+}
+
