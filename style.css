@@ -24,3 +24,16 @@
     margin-left: 25px;
 }
 
+.col-sm-12 {
+    padding: 20px;
+}
+
+.row div {
+    color: teal;
+    font-size: 24px;
+}
+
+.pull-left {
+    float: left;
+    overflow-wrap: normal;
+}
