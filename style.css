@@ -24,6 +24,10 @@
     margin-left: 25px;
 }
 
+.container {
+    background-color: white;
+}
+
 .col-sm-12 {
     padding: 20px;
 }
