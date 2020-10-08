@@ -30,10 +30,8 @@
 
 .row div {
     color: teal;
-    font-size: 24px;
+    font-size: 18px;
 }
-
-.pull-left {
-    float: left;
-    overflow-wrap: normal;
+.col-4 {
+    @include float-left;
 }
