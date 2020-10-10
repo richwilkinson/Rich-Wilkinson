@@ -1,41 +1,27 @@
-.about-me {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aqua;
-    background-color: beige;
-    padding: 20px;
-} 
-
-.about-me h1 {
-    display: inline;
-    font-size: 24px;
+.body {
+    background-color: black;
 }
 
-.about-me div {
-    margin-right: 20px;
-    float: right;
-    font-size: 15px;
-}
-.about-me div ul {
-    list-style-type: none;
+.jumbotron {
+    background-image: url("blue-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.about-me div ul li {
-    display: inline-block;
-    margin-left: 25px;
+.display-4 {
+    color: wheat;
+}
+
+.word-wrap {
+    color: seashell;
+    overflow-wrap: normal;
+}
+
+.my-4 {
+    color: linen;
+    overflow-wrap: normal;
 }
 
 .container {
-    background-color: white;
-}
-
-.col-sm-12 {
-    padding: 20px;
-}
-
-.row div {
-    color: teal;
-    font-size: 18px;
-}
-.col-4 {
-    @include float-left;
+    color: aliceblue;
 }
