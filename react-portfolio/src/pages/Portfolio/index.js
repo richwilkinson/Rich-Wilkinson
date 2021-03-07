@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../../components/header';
+import Footer from '../../components/footer'
 import Projects from '../../components/projects';
 import ProjectArray from '../../projects.json'
 
@@ -28,6 +29,7 @@ class Portfolio extends Component {
               description={project.Description}
             />
           ))}
+          <Footer />
         </>
       );
     }

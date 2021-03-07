@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-function navbar() {
+function Navbar() {
     return(
         <nav>
             <ul className="menu">
@@ -14,7 +14,13 @@ function navbar() {
                   >About Me
                   </NavLink>
                 </li>
-                <li><a href="#">Projects</a></li>
+                <li><NavLink
+                    exact
+                    to="/portfolio"
+                    className="nav-link"
+                    activeClassName= "nav-link active"
+                  >Projects
+                  </NavLink></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">LinkedIn</a></li>
@@ -22,4 +28,4 @@ function navbar() {
         </nav>
     )
 }
-export default navbar;
+export default Navbar;
