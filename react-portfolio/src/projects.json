@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Project 1",
+      "GitHub": "https://github.com/JimGigantes/Map3ater",
+      "Heroku": "UFC",
+      "Description": "I created a recipe search app that searched an api database by ingredient or name."
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "GitHub": "https://github.com/lmrujana/project_2",
+      "Heroku": "https://project2b-camp.herokuapp.com/",
+      "Description": "I created a pizza order creating and tracking app that allowed employees to login with pin"
+    },
+    {
+      "id": 3,
+      "name": "Coding Quiz",
+      "GitHub": "https://richwilkinson.github.io/codingquizhw/",
+      "Heroku": "AKA",
+      "Description": "I created a quiz for coders, that allows the user to track high scores and is also timed."
+    },
+    {
+      "id": 4,
+      "name": "User Directory",
+      "GitHub": "https://github.com/richwilkinson/employeeDirectory",
+      "Heroku": "https://sleepy-bayou-77218.herokuapp.com/",
+      "Description": "I created a user directory on React that displayed all employees and filtered by name as well as sorted by first and last name."
+    },
+    {
+      "id": 5,
+      "name": "Budget Tracker App",
+      "GitHub": " https://github.com/richwilkinson/PWA_budgetApp",
+      "Heroku": "https://morning-waters-53823.herokuapp.com/",
+      "Description": "I created a budget tracking app that worked with a service worker and allowed user to interface offline."
+    },
+    {
+      "id": 6,
+      "name": "Project 3",
+      "GitHub": "Bouncer",
+      "Heroku": "Alpha Male",
+      "Description": "I created a marketplace app that allows users to search more broadly by location and allowed the user to post items as well."
+    }
+]
