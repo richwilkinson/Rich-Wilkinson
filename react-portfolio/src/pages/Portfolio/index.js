@@ -15,8 +15,9 @@ class Portfolio extends Component {
       return (
         <>
         <Navbar/>
-        <div class="client-heading">
-        <span>Recent Work</span>
+        <section id="client">
+        <div className="client-heading">
+        
         <h3>Projects</h3>
         </div>  
           {this.state.projects.map(project => (
@@ -29,7 +30,8 @@ class Portfolio extends Component {
               description={project.Description}
             />
           ))}
-          <Footer />
+        </section>
+        <Footer />
         </>
       );
     }

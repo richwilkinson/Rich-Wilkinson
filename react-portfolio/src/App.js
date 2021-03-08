@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
-//import Skills from "./pages/Skills.js";
+import Expertise from "./pages/Expertise";
 import Home from "./pages/Home";
 import "./App.css";
+
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
             {/* use switch if you want to add "*" path */}
             <Switch>
               <Route exact path="/portfolio" component={Portfolio} />
-              {/* <Route exact path="/skills" component={Skills} />  */}
+              <Route exact path="/skills" component={Expertise} />
               <Route exact path={["/", "/home", "*"]} component={Home} />
             </Switch>  
     </Router>

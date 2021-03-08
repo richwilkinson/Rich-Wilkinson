@@ -3,13 +3,13 @@ import React from 'react';
 function Footer() {
     return(
 
-        <section id="contact">
+        <footer id="contact">
         <h3>Get in contact with me!</h3>
-        <div class="contact-input">
+        <div className="contact-input">
             <input type="email" placeholder="Example@gmail.com"/>
             <a href="mailto:richardwilkinson@live.com">Continue</a>
         </div>
-        </section>
+        </footer>
     )
 }
 

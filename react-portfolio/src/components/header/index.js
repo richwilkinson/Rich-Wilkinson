@@ -3,7 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return(
-        <nav>
+        <section id="main">
+            <nav>
             <ul className="menu">
                 <li>
                     <NavLink
@@ -26,6 +27,8 @@ function Navbar() {
                 <li><a href="#">LinkedIn</a></li>
             </ul>
         </nav>
+        </section>
+        
     )
 }
 export default Navbar;

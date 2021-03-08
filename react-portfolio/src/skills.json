@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "React",
+      "length": "I Have 1 year of experience in React",
+      "projects": "I Have completed 10+ projects in React",
+      "rating": "far fa-star"
+    },
+    {
+      "id": 2,
+      "name": "NodeJS",
+      "length": "I have been working with NodeJS for 1 year",
+      "projects": "I completed 10+ projects in NodeJS",
+      "rating": "far fa-star"
+    },
+    {
+      "id": 3,
+      "name": "JQUERY",
+      "length": "I have 2+ years of experience working with JQUERY",
+      "projects": "I have completed 20+ projects using JQUERY",
+      "rating": "far fa-star"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "length": "I have 3+ years of experience working with JavaScript",
+      "projects": "I have completed 30+ projects in JavaScript",
+      "rating": "far fa-star"
+    },
+    {
+      "id": 5,
+      "name": "HTML",
+      "length": "I have worked with HTML for 5+ years",
+      "projects": "I have completed 100+ projects involving HTML",
+      "rating": "far fa-star"
+    },
+    {
+      "id": 6,
+      "name": "CSS",
+      "length": "I have 5+ years in experience working with CSS",
+      "projects": "I have completed over 100+ projects using CSS",
+      "rating": "far fa-star"
+    }
+]
