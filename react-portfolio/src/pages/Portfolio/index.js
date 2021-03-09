@@ -25,8 +25,7 @@ class Portfolio extends Component {
               id={project.id}
               key={project.id}
               name={project.name}
-              github={project.GitHub}
-              heroku={project.Heroku}
+              deployed={project.Deployed}
               description={project.Description}
             />
           ))}

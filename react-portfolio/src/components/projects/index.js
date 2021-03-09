@@ -15,7 +15,7 @@ function Projects(props) {
             </div>
             
             <p>{props.description} </p>
-            <a href={props.github}>Link to github</a>
+            <a href={props.deployed}>Link to github</a>
         </div>
         </div>
         </section>

@@ -22,9 +22,18 @@ function Navbar() {
                     activeClassName= "nav-link active"
                   >Projects
                   </NavLink></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><NavLink
+                    exact
+                    to="/skills"
+                    className="nav-link"
+                    activeClassName= "nav-link active"
+                  >Skills
+                  </NavLink></li>
+                <li><a 
+                href="https://github.com/richwilkinson">
+                    GitHub
+                    </a></li>
+                <li><a href="https://www.linkedin.com/in/richard-wilkinson-a14b871b5/">LinkedIn</a></li>
             </ul>
         </nav>
         </section>
