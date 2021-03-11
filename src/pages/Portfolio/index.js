@@ -17,7 +17,8 @@ class Portfolio extends Component {
         <Navbar/>
         <section id="client">
         <div className="client-heading">
-        
+        <br></br>
+        <br></br>
         <h3>Projects</h3>
         </div>  
           {this.state.projects.map(project => (

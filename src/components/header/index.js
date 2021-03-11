@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return(
-        <section id="main">
             <nav>
             <ul className="menu">
                 <li>
@@ -36,7 +35,6 @@ function Navbar() {
                 <li><a href="https://www.linkedin.com/in/richard-wilkinson-a14b871b5/">LinkedIn</a></li>
             </ul>
         </nav>
-        </section>
         
     )
 }

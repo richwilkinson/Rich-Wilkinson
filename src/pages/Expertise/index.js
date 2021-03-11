@@ -14,10 +14,11 @@ class Expertise extends Component {
         <>
         <>
         <Navbar/>
-        <section id="main">
+        <section id="client">
         <div className="client-heading">
-        <span>Skills</span>
-        <h3>Known Languages</h3>
+          <br></br>
+          <br></br>
+        <h3>Skills</h3>
         </div>  
           {this.state.skills.map(skill => (
             <Skills
@@ -30,20 +31,6 @@ class Expertise extends Component {
             />
           ))} 
         </section>
-        <div className="client-heading">
-        <span>Skills</span>
-        <h3>Known Languages</h3>
-        </div>  
-          {this.state.skills.map(skill => (
-            <Skills
-              id={skill.id}
-              key={skill.id}
-              name={skill.name}
-              length={skill.length}
-              projects={skill.projects}
-              rating={skill.rating}
-            />
-          ))}
           <Footer />
         </>
         </>
